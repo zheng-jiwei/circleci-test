@@ -14,4 +14,7 @@
   :ring {:handler ecsite.handler/app :port 8080}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
-                        [ring/ring-mock "0.3.0"]]}})
+                        [ring/ring-mock "0.3.0"]]}}
+  :main ecsite.handler
+)
+
